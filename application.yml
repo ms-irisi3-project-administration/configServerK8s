@@ -1,3 +1,10 @@
+local:
+  language: fr
+local:
+  country: FR
+local:
+  bundel: messages
+
 eureka:
   instance:
     preferIpAddress: true
