@@ -1,14 +1,14 @@
 spring:
   datasource:
-    url: jdbc:mysql://${DATABASE-SERVICE}/${DATABASE-NAME}?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://${BD_URL}:3306/${MYSQL_DATABASE}?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
 
 
 spring:
   datasource:
-    username: root
+    username: ${MYSQL_USER}
 spring:
   datasource:
-    password:
+    password: ${MYSQL_PASSWORD}
 
 local:
   language: fr
